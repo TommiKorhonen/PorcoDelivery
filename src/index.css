@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menuItems {
+    @apply hover:bg-gray-100 p-8
+}
+.headerBtn {
+    @apply py-6 px-16 w-full font-semibold text-white uppercase
+}
+p{
+    max-width: 65ch;
+}

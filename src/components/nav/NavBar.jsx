@@ -12,13 +12,13 @@ const NavBar = () => {
                 <img src={Box} alt="" className='h-24 w-24' />
                 <h2 className='text-2xl font-bold'>Porcodelivery</h2>
             </div>
-            <ul className='hidden md:flex gap-8 items-center text-xl uppercase'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Careers</li>
-                <li>Contact</li>
+            <ul className='hidden lg:flex gap-8 items-center text-xl uppercase'>
+                <li className='menuItems'>Home</li>
+                <li className='menuItems'>About</li>
+                <li className='menuItems'>Careers</li>
+                <li className='menuItems'>Contact</li>
             </ul>
-            <MenuIcon onClick={() => toggle()} className='w-10 md:hidden cursor-pointer' />
+            <MenuIcon onClick={() => toggle()} className='w-10 lg:hidden cursor-pointer' />
         </nav>
     )
 };
