@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from '../hero/Header';
 import Features from './features/Features';
+import Stats from './stats/Stats';
 import Story from './story & values/Story';
 
 const Main = () => {
     return (
-        <main className=' bg-gray-50'>
+        <main className='bg-gray-50'>
             <Header />
-            <div className='min-h-screen'>
-                <Features />
-                <Story />
-            </div>
+            <Features />
+            <Story />
+            <Stats />
         </main>
     )
 };
