@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <header className='flex bg-hero-bg h-[500px] lg:h-[500px] xl:h-[600px] bg-cover bg-no-repeat bg-center'>
-            <div className='flex flex-col container mx-auto px-8 pt-20 sm:pt-24 md:pt-36 xl:pt-52'>
+            <div className='flex flex-col container mx-auto px-8 pt-20 sm:pt-28 md:pt-36 xl:pt-52'>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight uppercase font-black text-white">
                     Your ultimate trucking and
                     <br />

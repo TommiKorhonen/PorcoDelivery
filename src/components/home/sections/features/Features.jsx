@@ -3,9 +3,7 @@ import Cards from './Cards';
 
 const Features = () => {
     return (
-        <section className='min-h-screen'>
-            <Cards />
-        </section>
+        <Cards />
     )
 };
 
