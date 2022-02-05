@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Box from "../../images/Box.png"
 import { MenuIcon } from '@heroicons/react/solid'
 import Dropdown from './Dropdown';
+import Logo from '../Logo';
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => {
@@ -11,8 +11,7 @@ const NavBar = () => {
         <nav className='sticky top-0 z-50 bg-white shadow-md'>
             <div className='flex justify-around'>
                 <div className='flex items-center'>
-                    <img src={Box} alt="" className='h-24 w-24' />
-                    <h2 className='text-2xl font-bold'>Porcodelivery</h2>
+                    <Logo />
                 </div>
                 <ul className='hidden lg:flex gap-8 items-center text-xl uppercase'>
                     <li className='menuItems'>Home</li>
